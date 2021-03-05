@@ -1,0 +1,12 @@
+spring:
+  main:
+    web-application-type: none
+  datasource:
+    url: jdbc:mysql://127.0.0.1/wsr_test
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
